@@ -1,0 +1,6 @@
+
+Data comes in certain types such as strings or numbers or Booleans or dates. For example, age is a number whereas our DOB is a date. Our names are strings. Remember that: 
+-    Strings store characters and numbers.
+-    Booleans store True or False.
+-    Numeric data types store only numbers (whole or fraction or mixed). 
+-    Dates store date values such as today’s date or birthdays.
