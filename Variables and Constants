@@ -4,3 +4,11 @@ Data comes in certain types such as strings or numbers or Booleans or dates. For
 -    Booleans store True or False.
 -    Numeric data types store only numbers (whole or fraction or mixed). 
 -    Dates store date values such as today’s date or birthdays.
+
+
+The type of data is important because it decides what size of memory it will occupy. A boolean takes only 1 byte whereas numbers and strings can take many bytes depending on the value of the variable. Going back to our hotel example, not all rooms are made equal. Some have 1 bed, some have 2, some have 3, some are suites, some are executive suites, etc. It all depends on the number of guests in the group/party.
+What's important to remember is that by using the correct data type, we efficiently manage memory. You don't want to allocate suites to every family or person – you will run out of suites quickly and on the other side, you will have lots of empty 1-bedrooms.
+One of the best parts of Python is that we don’t have to declare the data type of variables. Consider Python a smart language for automatically figuring out data types based on values. The hotel manager is smart enough to give the right size room to guests.
+age = 10 is enough to let Python allocate memory for a variable ‘age’ and assign 10 to it. Python will internally ask the RAM to allocate appropriate memory for this variable which can hold a number (10). 
+In other programming languages, we may need to declare int age = 10 (explicitly telling the computer to create a memory for data type integer). Also, numeric data types are of two types – integer (whole number) and double (fractions).
+
